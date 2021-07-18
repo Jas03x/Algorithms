@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\avl_trees.cpp" />
+    <ClCompile Include="src\bubble_sort.cpp" />
+    <ClCompile Include="src\common.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\max_heap.cpp" />
   </ItemGroup>

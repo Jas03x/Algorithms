@@ -24,5 +24,11 @@
     <ClCompile Include="src\max_heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\bubble_sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

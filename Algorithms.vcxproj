@@ -24,6 +24,7 @@
     <ClCompile Include="src\common.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\max_heap.cpp" />
+    <ClCompile Include="src\merge_sort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

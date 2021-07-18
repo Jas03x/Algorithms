@@ -1,5 +1,5 @@
 
-#include <iostream>
+#include <cstdio>
 #include <algorithm>
 
 using namespace std;
@@ -57,7 +57,7 @@ Node* Insert(Node* root, Node* node)
 {
     if (root == nullptr)
     {
-        cout << "error: null root" << endl;
+        printf("error: null root\n");
         return nullptr;
     }
 
@@ -172,7 +172,7 @@ bool Compare(Node* n0, Node* n1)
     return ret;
 }
 
-bool Test1()
+bool AVL_Trees_Test1()
 {
     Node* root1 = Create(4);
     root1 = Insert(root1, Create(5));
@@ -193,7 +193,7 @@ bool Test1()
     return ret;
 }
 
-bool Test2()
+bool AVL_Trees_Test2()
 {
     Node* root1 = Create(5);
     root1 = Insert(root1, Create(6));
@@ -223,8 +223,8 @@ void PrintResult(const char* message, bool result)
 
 bool AVL_Trees()
 {
-    PrintResult("Test 1", Test1());
-    PrintResult("Test 2", Test2());
+    PrintResult("Test 1", AVL_Trees_Test1());
+    PrintResult("Test 2", AVL_Trees_Test2());
 
     return true;
 }

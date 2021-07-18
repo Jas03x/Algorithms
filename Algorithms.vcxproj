@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="src\avl_trees.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\max_heap.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

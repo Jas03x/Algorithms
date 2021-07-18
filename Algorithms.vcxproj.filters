@@ -21,5 +21,8 @@
     <ClCompile Include="src\avl_trees.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\max_heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
